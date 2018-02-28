@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    h1 {
+      font-family: sans-serif;
+      color: coral;
+      font-size: 50px;
+      line-height: 150px;
+
+      padding: 0 25px 0 25px;
+      margin: 0;
+
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+
+      border: 15px aquamarine solid;
+      border-width: 0 15px 0 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 id="domain" />
+</body>
+
+<script>
+  document.getElementById("domain").innerHTML = document.domain;
+</script>
+</html>
